@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        header > h1 {
+            box-shadow: inset 8px 8px 8px rgb(0, 0, 0);
+        }
+
+        nav {
+            background-color: rgb(77, 70, 70);
+            padding: 3px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 80px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color: white;
+            padding: 0px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.486);
+        }
+
+        .assunto {
+            background-color: rgb(31, 28, 28);
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(112, 101, 101);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+        }
+
+        footer > p {
+            color: rgb(215, 224, 215);
+        }
+
+        .assunto2 {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .economia {
+            background-color: red;
+        }
+        .economia > article {
+            background-color: red;
+            font-weight: 700;
+        }
+        .economia > article > aside {
+            background-color: yellow;
+            text-align: center;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 40px;
+            padding: 50px;
+            background-color: white;
+            border-radius: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assunto">
+           <p>Esportes Política e Tecnoligia</p>
+        </section>
+        <section id="noticias">
+           <article>
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptate rerum, nesciunt esse quam corrupti praesentium a quis sit facilis qui obcaecati quod molestias iste maxime laudantium cumque porro sed.</p>
+               <aside>
+                   <p>Artigo escrito por José da Silva</p>
+               </aside>
+           </article>
+        </section>
+    </main>
+    <footer>
+       <p>Desenvolvido pelo cursoemvideo</p>
+    </footer>
+    <main>
+        <section class="assunto2">
+            <p>Economia do Brasil</p>
+        </section>
+        <section class="economia">
+            <h2>Noticia sobre a economia do Brasil</h2>
+            <article>
+                <p>A economia do brasil esta indo de mal a pior com esse cara no comando do Brasil, esse mesmo que você pensou, O LULA. <br> Esse cara não sabe o que faz com o Brasil, ele ja estragou a economia do Brasil uma vez, e esse povo burro colocou esse cara de novo no comando, PARA MIM ISSO É UM ABSURDO!!!!!!
+                </p>
+                <aside>Palavras de um civil</aside>
+            </article>
+        </section>
+    </main>
+    <div id="bola"></div>
+</body>
+</html>
