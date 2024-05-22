@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(3, 3, 32), black);
+}
+
+header {
+    margin: 30px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;   
+    padding: 90px;
+}
+
+header img {
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 10vh;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
