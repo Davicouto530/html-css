@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            height: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box p {
+            padding: 30px;
+        }
+        
+        .botao input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(134, 132, 132);
+        }
+        
+        fieldset {
+            border-radius: 10px;
+        }
+
+        legend {
+            text-align: center;
+            border: 1px solid rgb(150, 148, 148);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        legend:hover {
+            background-color: rgb(3, 3, 46);
+            transition: 0.5s;
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <div class="box">
+            <fieldset>
+                <legend>Formulário</legend>
+                <p>
+                    <label for="icor">Cor: </label>
+                    <input type="color" name="Cor" id="icor">
+                </p>
+                <p>
+                    <label for="ifoto">Foto de perfil:</label>
+                    <input type="file" name="foto" id="ifoto">
+                </p>
+                <p>
+                    <label for="inivel">Nivel de satisfação</label>
+                    <input type="range" name="nivel" id="inivel">
+                </p>
+                <p class="botao">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
