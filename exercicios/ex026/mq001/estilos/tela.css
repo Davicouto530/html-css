@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Estilos somente para quando você abrir o site em um dispositivo, uma tela */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: gray;
+}
+
+header h1 {
+    text-align: center;
+}
+
+menu ul {
+    background-color: rgb(54, 54, 54);
+    list-style-type: none;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+li:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+article {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
