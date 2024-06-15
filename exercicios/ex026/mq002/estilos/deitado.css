@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Modificações para aparelhos deitados (landscape )*/
+
+body {
+    background: url(../imagens/cev-landscape.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}

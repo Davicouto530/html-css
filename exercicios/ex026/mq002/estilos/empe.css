@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Modificações para aparelhos em pé (portrait) */
+
+body {
+    background: url(../imagens/cev-portrait.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
