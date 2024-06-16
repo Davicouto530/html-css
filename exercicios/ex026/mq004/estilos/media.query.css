@@ -2,3 +2,71 @@
 
 /* Todas as midias */
 
+/* Tamanhos de telas em PX para cada dispositivo (Typical Device Breakpoints)
+---------------------------------------------------
+Pequenas telas: até 600px
+Celular: 601px até 768px 
+tablet: 769px até 992px
+Desktop: 993px até 1200px
+Grandes telas: acima de 1201px
+*/
+------------------------------------------
+
+/* MODIFICAÇÕES PARA TELAS PARA TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: url(../imagens/back-tablet.jpg);
+    }
+    
+    main {
+        border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 30%;
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+/* MODIFICAÇÕES PARA TELAS PARA PC */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background: url(../imagens/back-pc.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    main h1{
+        color: purple;
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+}
+
+/* MODIFICAÇÕES PARA TELAS PARA TV */
+@media screen and (min-width: 1201px) {
+    body {
+        background: url(../imagens/back-tv.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    main {
+        width: 650px;
+        background-color: rgba(255, 255, 255, 0.61);
+    }
+
+    h1 {
+        color: rgb(34, 34, 34);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}
