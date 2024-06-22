@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 2, 2);
+}
+
+h1 {
+    font-size: 2.4em;
+    color: rgb(89, 136, 136);
+}
+
+#container {
+    padding: 10px;
+}
+
+#container ul {
+    text-align: center;
+    padding: 20px 10px 0px 0px;
+}
+
+#container li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+#container div img {
+    width: 40px;
+}
+
+hr {
+    padding-top: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#container section {
+    padding-top: 30px;
+}
+
+#container section input {
+    margin: 10px 0px 0px 20px;
+    padding: 10px;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#container section label {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    margin: 0px 0px 0px 20px;
+}
+
+#botao {
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+
+#botao input {
+    padding: 5px 40px 5px 40px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgba(124, 123, 123, 0.849);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* MODIFICAÇÃO DEITADA*/
+@media screen and (orientation: landscape) {
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto 0;
+    }
+
+    img#foto {
+        position: absolute;
+        top: 150px;
+        left: 60%;
+    }
+
+    form {
+        position: absolute;
+        left: 150px;
+        top: 95px;
+    }
+}
+
+/* MODIFICAÇÃO EM PÉ*/
+@media screen and (orientation: portrait) {
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    img#foto {
+        display: none;
+    }
+}

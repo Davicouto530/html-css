@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 9, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(2, 24, 31, 0.849), rgba(26, 49, 56, 0.87));
+    color: white;
+    font-weight: 700;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+form div#container {
+    padding: 30px 5px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+@media (max-width: 450px) {
+    form {
+        background-color: red;
+    }
+}
+
+#container section {
+    position: relative;
+    padding: 20px 20px 10px 20px;
+}
+
+section input {
+    width: 450px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+section label {
+    position: absolute;
+    top: 10px;
+    font-weight: bolder;
+}
+
+.botao input {
+    background-color: rgb(2, 24, 31);
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.botao input:hover {
+    cursor: pointer;
+}
+
+#container img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    section input {
+        width: 400px;
+    }
+}

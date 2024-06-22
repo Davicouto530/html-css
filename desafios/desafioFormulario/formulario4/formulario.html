@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            width: 100%;
+            background-color: lightblue;
+        }
+
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            background-color: rgb(20, 38, 44);
+            width: 400px;
+            height: 500px;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.541);
+        }
+
+        .dnome input {
+            margin-top: 50px;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 80%;
+            outline: none;
+            background: none;
+            color: white;
+            padding: 0px 0px 10px 5px;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        .mail input {
+            margin-top: 50px;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 80%;
+            outline: none;
+            background: none;
+            padding: 0px 0px 10px 5px;
+            color: white;
+        }
+
+        .dade input {
+            margin-top: 50px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 80%;
+            outline: none;
+            color: white;
+            padding: 0px 0px 10px 5px;
+        }
+
+        #situacao {
+            margin-top: 30px;
+            background: none;
+            color: white;
+            border: none;
+            outline: none;
+        }
+
+        option {
+            background-color: black;
+            color: white;
+        }
+
+        .botao input {
+            margin-top: 70px;
+            padding: 10px 100px 10px 100px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bolder;
+            font-size: .9em;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.596);
+        }
+
+        ::placeholder {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <h2>Formulário de pesquisa</h2>
+            <div class="dnome">
+                <input type="text" name="inome" id="nome" placeholder="Digite seu nome" required minlength="4" maxlength="25">
+            </div>
+            <div class="mail">
+                <input type="email" name="maill" id="email" placeholder="Digite seu email" required minlength="8" maxlength="25">
+            </div>
+            <div class="dade">
+                <input type="number" name="dadee" id="idade" placeholder="Digite sua idade" required>
+            </div>
+            <select name="situ" id="situacao">
+                <option selected>Seu estado civil</option>
+                <option>Solteiro(a)</option>
+                <option>Casado(a)</option>
+                <option>Namorando</option>
+            </select>
+            <div class="botao">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

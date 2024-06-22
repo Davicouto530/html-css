@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <div id="container">
+            <h1>Login</h1>
+            <section>
+                <input type="text" name="name" id="nome" size="40" required placeholder="🙋‍♂️ Digite seu nome">
+            </section>
+            <section>
+                <input type="email" name="mail" id="email" size="40" required placeholder="✉️ Digite seu email">
+            </section>
+            <section>
+                <input type="password" name="sen" id="senha" size="40" required placeholder="🔒 Digite sua senha">
+            </section>
+            <section>
+                <input type="password" name="con" id="confirme" size="40"
+                required placeholder="🔒 Confirme sua senha">
+            </section>
+            <section id="foto">
+                <input type="file" name="ima" id="foto">
+            </section>
+            <section id="texto">
+                <textarea name="tex" id="texto" cols="45" rows="5" placeholder="Digite uma mensagem aqui"></textarea>
+            </section>
+            <section id="termos">
+                <input type="checkbox" name="acei" id="aceito"><label for="aceito">Aceito os termos</label>
+                <br><br><a href="#">Ler mais</a>
+            </section>
+            <button>Login</button>
+        </div>
+    </form>
+</body>
+</html>

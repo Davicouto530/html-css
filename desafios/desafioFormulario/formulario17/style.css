@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: lightgray;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.651);
+}
+
+#container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.493);
+}
+
+#container section {
+    padding: 8px;
+}
+
+#container section input {
+    padding: 5px 5px;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#container section label {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+.botao {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.botao input {
+    padding: 5px 160px;
+    background-color: rgb(6, 82, 107);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.cadastre {
+    text-align: right;
+    padding-top: 15px;
+}
+
+.cadastre p {
+    font-size: 14px;
+}
+
+.cadastre button {
+    background-color: rgb(0, 0, 36);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right, darkblue, rgb(2, 2, 32));
+        }
+
+        .fora {
+            width: 400px;
+            height: 500px;
+            background-color: white;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.575);
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 15%);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 22px;
+            padding-top: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        p {
+            padding-top: 15px;
+            font-size: 12px;
+        }
+
+        h1, p {
+            text-align: center;
+            padding-top: 10px;
+        }
+    
+        form {
+            text-align: center;
+        }
+
+        input {
+            padding: 10px 20px 10px 20px;
+            margin-top: 50px;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+
+        .pro {
+            background-color: rgb(4, 4, 51);
+            color: white;
+            padding: 10px 40px 10px 40px;
+            border-radius: 10px;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="fora">
+        <form action="cadastro.php" autocomplete="off">
+            <div class="dentro">
+                <h1>Crie sua conta</h1>
+                <p>Este é o primeiro passo</p>
+                <input type="email" name="email" id="emaill" placeholder="Email" size="35" required minlength="12">
+
+                <input type="password" name="sen" id="senha" size="35" placeholder="Senha" required minlength="8" maxlength="16">
+
+                <input type="password" name="sen2" id="senha2" size="35" placeholder="Confirme a senha" required minlength="8" maxlength="16">
+
+                <input class="pro" type="submit" value="Próximo">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

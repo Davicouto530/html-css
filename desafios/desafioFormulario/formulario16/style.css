@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: white;
+    font-size: 1.2em;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 15px;
+    
+}
+
+#xi {
+    color: white;
+    display: block;
+    text-align: right;
+    transform: translate(-1%, -150%);
+}
+
+div.texto-azul {
+    background-color: darkblue;
+    margin: 0px 15px;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+div.texto-azul p {
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 50px;
+    line-height: 1.3em;
+}
+
+#container {
+    background-color: rgb(20, 26, 26);
+    width: 300px;
+    border-radius: 15px;
+}
+
+#container section {
+    margin-top: 15px;
+    padding: 0px 15px;
+    margin-right: 15px;
+}
+
+#container section input {
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(94, 93, 93);
+    outline: none;
+    background-color: rgb(20, 26, 26);
+    color: lightgray;
+}
+
+input::placeholder {
+    color: rgb(87, 87, 87);
+}
+
+div.informe {
+    background-color: rgba(252, 164, 0, 0.575);
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 15px;
+    border-radius: 10px;
+    color: rgb(197, 197, 197);
+    font-size: 14px;
+}
+
+.p-grande {
+    width: 90%;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    color: rgb(107, 106, 106);
+    line-height: 1.2em;
+}
+
+.p-grande a {
+    text-decoration: none;
+    color: red;
+}
+
+div.botao {
+    text-align: center;
+    margin: 20px 0px 15px 0px;
+}
+
+div.botao input {
+    padding: 10px 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(253, 13, 13);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.p-vermelha {
+    text-align: center;
+    color: red;
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 15px;
+}

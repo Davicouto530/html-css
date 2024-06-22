@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="post" autocomplete="off">
+        <div id="container">
+            <h1>Formulário de login</h1>
+            <section>
+                <input type="text" name="name" id="nome" size="45" required placeholder="Nome" maxlength="15">
+            </section>
+            <section>
+                <input type="text" name="sobre" id="sobrenome" size="45" required placeholder="Sobrenome" maxlength="15">
+            </section>
+            <section>
+                <input type="email" name="mail" id="email" size="45" required placeholder="Email" minlength="10">
+            </section>
+            <section>
+                <input type="password" name="sen" id="senha" size="45" required placeholder="Senha" minlength="8">
+            </section>
+            <section>
+                <input type="password" name="con" id="confirme" size="45" required placeholder="Confirme a senha" minlength="8">
+            </section>
+            <div class="botao">
+                <input type="submit" value="login">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

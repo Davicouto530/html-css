@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(3, 3, 3, 0.932);
+        }
+
+        .box {
+            display: block;
+            background-color: rgb(46, 46, 46);
+            color: white;
+            padding: 30px 0px 0px 40px;
+            position: absolute;
+            width: 550px;
+            height: auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            filter: drop-shadow(1px 1px 8px rgba(255, 255, 255, 0.342));
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                flex-direction: column;
+                width: auto;
+            }
+        }
+
+        .box p {
+            padding: 20px 0px 50px 0px;
+            font-weight: bold;
+        }
+
+        .cima {
+            display: inline;
+        }
+
+        .cima input {
+            background: none;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgb(170, 1, 1);
+            margin: 25px 0px 25px 0px;
+            width: 40%;
+            color: white;
+        }
+
+        .cima label {
+            position: absolute;
+            top: -1;
+        }
+
+        .adress {
+            transform: translate(45%, -100%);
+        }
+
+        .meio {
+            display: inline;
+        }
+
+        .meio input {
+            background: none;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgb(170, 1, 1);
+            margin: 25px 0px 25px 0px;
+            width: 40%;
+            color: white;
+            transform: translate(0%, -300%);
+        }
+
+        .meio label {
+            position: absolute;
+            top: -1;
+            transform: translate(45%, -300%);
+        }
+
+        .afee {
+            transform: translate(45%, -100%);
+        }
+
+        .afee label {
+            transform: translate(0%, -300%);
+        }
+
+        .meio > .numb {
+            transform: translate(0%, -300%);
+        }
+
+        .baixo {
+            display: inline;
+        }
+
+        .baixo textarea {
+            background: none;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid red;
+            width: 88%;
+            transform: translate(0%, -450%);
+            color: white;
+        }
+
+        .baixo label {
+            color: white;
+            position: absolute;
+            bottom: 125px;
+        }
+
+        .botao input {
+            background-color: red;
+            border: none;
+            color: white;
+            display: block;
+            margin: auto;
+            padding: 10px 200px 10px 200px;
+            transform: translate(-5%, -80%);
+            border-radius: 5px;
+            font-size: .7em;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="cadastro.php" method="post">
+            <p>Contact us</p>
+        <div class="cima">
+            <label for="inome">FullName</label>
+            <input type="text" name="nnome" id="inome">
+            
+            <div class="adress">
+                <label for="email">Email Adress</label>
+                <input type="email" name="mail" id="email">
+            </div>
+        </div>
+        <div class="meio">
+            <label class="numb" for="number">Phone Number</label>
+            <input type="text" name="num" id="number">
+
+            <div class="afee">
+                <label for="affair">Affair</label>
+                <input type="text" name="aff" id="affair">
+            </div>
+        </div>
+        <div class="baixo">
+            <label for="message">Message</label>
+            <textarea rows="1" cols="50" name="messa" id="message"></textarea>
+        </div>
+        <div class="botao">
+            <input type="submit" value="SEND">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

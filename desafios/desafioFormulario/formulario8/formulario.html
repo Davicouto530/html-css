@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <div id="container">
+            <h2>Formulário de contato</h2>
+            <p>Escreva-nos e em breve entraremos em contato</p>
+            <section>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nnome" id="nome" required placeholder="Digite seu nome">
+            </section>
+            <section>
+                <label for="email">Email</label><br>
+                <input type="email" name="mail" id="email" required placeholder="Digite seu email">
+            </section>
+            <section>
+                <label for="telefone">Telefone</label><br>
+                <input type="tel" name="tel" id="telefone" required placeholder="Digite seu telefone">
+            </section>
+            <section>
+                <label for="site">Seu site</label><br>
+                <input type="text" name="sit" id="site" required placeholder="Digite a URL do seu site">
+            </section>
+            <section>
+                <label for="assunto">Assunto</label><br>
+                <input type="text" name="ass" id="assunto" required placeholder="Digite um assunto que você gosta">
+            </section>
+            <section>
+                <label for="mensagem">Mensagem</label><br>
+                <textarea name="men" id="menagem" cols="50" rows="5" required placeholder="Digite uma mensagem"></textarea>
+            </section>
+            <div id="botao">
+                <input type="submit" value="Enviar">
+            </div>
+            <p class="p2">*Este campo é obrigatóio</p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,113 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(Netflix-ok.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    padding: 15px 0px;
+}
+
+#container {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 20px 60px 140px 60px;
+    border-radius: 10px;
+}
+
+#container section {
+    padding: 13px 0px;
+}
+
+#container section input {
+    padding: 15px 5px;
+    background-color: rgb(53, 53, 53);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.botao {
+    text-align: center;
+    padding: 13px 0px;
+}
+
+.botao input {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 135px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox p {
+    font-size: 13px;
+    padding-left: 8px;
+}
+
+.facebook {
+    padding-bottom: 10px;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    color: gray;
+}
+
+.facebook > a > img {
+    width: 20px;
+    transform: translate(-20%, 20%);
+}
+
+.p-sign {
+    font-size: 16px;
+    color: gray;
+    padding: 10px 0px;
+}
+
+.p-sign a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.p-ultimo {
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0px;
+}
+
+.p-ultimo a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        background: url(Netflix-ok.jpg) center right no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}

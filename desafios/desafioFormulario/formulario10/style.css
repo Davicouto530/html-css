@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container {
+    background-color: rgb(1, 1, 32);
+    color: white;
+    padding: 40px 50px 40px 50px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.719);
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+#container input {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 34px 1px 7px 8px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+section #foto {
+    border: none;
+    padding: 25px 10px 25px 0px;
+    text-align: left;
+}
+
+#texto {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 14px;
+}
+
+#texto::placeholder {
+    color: gray;
+    padding: 5px 5px 0px 5px;
+}
+
+#termos {
+    padding: 15px 0px 0px 0px;
+}
+
+#termos label {
+    padding: 0px 0px 0px 8px;
+}
+
+#termos a {
+    text-decoration: none;
+    padding: 15px 0px 0px 0px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: rgb(51, 51, 51);
+    padding: 10px 80px 10px 80px;
+    transform: translate(0%, 40%);
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(93, 114, 122);
+            height: 100%;
+            width: 100%;
+        }
+        
+        div {
+            padding: 15px;
+        }
+
+        .inputbox {
+            position: relative;
+        }
+
+        .inputnome {
+            background: none;
+            border: none;
+            color: white;
+            outline: none;
+            border-bottom: 1px solid white;
+            width: 100%;
+            font-size: 15px;
+            letter-spacing: 2px;
+        }
+
+        ::placeholder {
+            color: white;
+            font-size: 14px;
+        }
+        
+        .box {
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(3, 3, 46);
+            font-size: 15px;
+        }
+
+        .bolinha {
+            margin-left: 5px;
+        }
+
+        .data input {
+            background-color: white;
+            color: black;
+            padding: 5px 10px 5px 10px;
+            border-radius: 10px;
+        }
+
+        .botao input {
+            display: block;
+            margin: auto;
+            width: 350px;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+            background-image: linear-gradient(to right, purple, blue);
+            border: none;
+        }
+
+        .botao:hover input {
+            font-size: 16px;
+        }
+
+        fieldset {
+            margin: 5px;
+            border: 2px solid rgb(72, 72, 206);
+        }
+
+        legend {
+            background-color: rgb(72, 72, 206);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <fieldset>
+                <legend>Formulário de clientes</legend>
+                <div class="inputbox">
+                    <input class="inputnome" type="text" name="inome" id="nome" required placeholder="Nome completo:" minlength="4">
+                </div>
+
+                <div class="inputbox">
+                    <input class="inputnome" type="email" name="iemail" id="email" required placeholder="Email:" minlength="10">
+                </div>
+
+                <div class="inputbox">
+                    <input class="inputnome" type="text" name="telefone" id="tel" required placeholder="Telefone:" minlength="11">
+                </div>
+
+                <div class="bolinha">
+                    <p>Sexo:</p>
+                    <br><input type="radio" name="isexo" id="sexo">
+                    <label for="sexo">Feminino</label>
+                    <br><input type="radio" name="isexo" id="sexo">
+                    <label for="sexo">Masculino</label>
+                    <br><input type="radio" name="isexo" id="sexo">
+                    <label for="sexo">Outro</label>
+                </div>
+                <div class="data">
+                    <label for="data1">Data de nascimento:</label>
+                    <input type="date" name="idata" id="date">
+                </div>
+                <div class="inputbox">
+                    <input class="inputnome" type="text" name="icidade" id="cidade" required placeholder="Cidade:">
+                </div>
+                <div class="inputbox">
+                    <input class="inputnome" type="text" name="iesta" id="estado" required placeholder="Estado:">
+                </div>
+
+                <div class="inputbox">
+                    <input class="inputnome" type="text" name="iende" id="endereco" required placeholder="Endereço:" minlength="5">
+                </div>
+                <div class="botao">
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

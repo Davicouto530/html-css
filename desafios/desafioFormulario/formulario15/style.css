@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+}
+
+h1 {
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+}
+
+#container section {
+    padding: 25px 15px;
+}
+
+#container section input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    size: 45;
+}
+
+input::placeholder {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.botao {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.botao input {
+    padding: 10px 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(100, 126, 126);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #container {
+        padding: 0px;
+    }
+
+    #container section {
+        padding: 15px 2px;
+    }
+
+    #container section input {
+        size: 30;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    form {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
