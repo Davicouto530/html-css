@@ -113,11 +113,34 @@ input::placeholder {
 
 @media screen and (max-width: 500px) {
     body {
-        background: url(Netflix-ok.jpg) right right no-repeat;
+        background: url(Netflix-ok.jpg) center right no-repeat;
         background-size: cover;
     }
 
     #container {
-        padding: 20px 30px 80px 30px;
+        padding: 20px 30px 100px 30px;
+    }
+    
+    #container section input {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+    body {
+        background: url(Netflix-ok.jpg) center right no-repeat;
+        background-size: cover;
+    }
+
+    #container {
+        padding: 20px 15px 80px 15px;
+    }
+
+    #container section input {
+        width: 100%;
+    }
+
+    .botao input {
+        padding: 15px 130px;
     }
 }
