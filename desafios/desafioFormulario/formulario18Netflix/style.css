@@ -104,10 +104,13 @@ h1 {
     text-decoration: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
     body {
         background: url(Netflix-ok.jpg) center right no-repeat;
         background-size: cover;
-        height: 100vh;
+    }
+
+    #container {
+        padding: 20px 30px 100px 30px;
     }
 }
