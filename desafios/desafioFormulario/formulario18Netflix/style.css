@@ -35,12 +35,17 @@ h1 {
 }
 
 #container section input {
-    padding: 15px 5px;
+    width: 100%;
+    padding: 15px 0px;
     background-color: rgb(53, 53, 53);
     border: none;
     outline: none;
     border-radius: 3px;
     color: white;
+}
+
+input::placeholder {
+    padding-left: 10px;
 }
 
 .botao {
@@ -59,6 +64,8 @@ h1 {
 
 .checkbox {
     display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .checkbox p {
@@ -104,13 +111,13 @@ h1 {
     text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     body {
-        background: url(Netflix-ok.jpg) center right no-repeat;
+        background: url(Netflix-ok.jpg) right right no-repeat;
         background-size: cover;
     }
 
     #container {
-        padding: 20px 30px 100px 30px;
+        padding: 20px 30px 80px 30px;
     }
 }
