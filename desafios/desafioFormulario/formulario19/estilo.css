@@ -87,6 +87,6 @@ h1 {
 
 @media screen and (min-width: 320px) and (max-width: 600px) {
     #container {
-        padding: 15px;
+        padding: 25px;
     }
 }
