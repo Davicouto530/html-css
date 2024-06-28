@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #07da63;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    max-width: 500px;
+    background: rgb(0, 0, 19);
+    padding: 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 19, 0.877);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 25px 0px 25px 0px;
+    text-shadow: 2px 2px 3px #07da627e;
+}
+
+.sec-input {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.sec-input input {
+    width: 100%;
+    padding: 10px 0px 10px 5px;
+    margin-right: 50px;
+    background: rgb(0, 0, 19);
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.p-pass {
+    color: #07da63;
+    font-size: 0.8em;
+    padding-left: 5px;
+}
+
+.botao {
+    text-align: center;
+    margin: 25px 0px 30px 0px;
+}
+
+.botao input {
+    background: #07da63;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 99%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.p-sign {
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.p-sign a {
+    text-decoration: none;
+    color: #07da63;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    #container {
+        padding: 15px;
+    }
+}
