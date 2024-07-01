@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(1, 1, 44);
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+    width: 300px;
+}
+
+div#formulario {
+    text-align: center;
+}
+
+div#formulario h1 {
+    margin: 20px 0px;
+    color: rgb(1, 1, 44);
+    font-size: 2em;
+    text-shadow: 0px 0px 3px rgba(1, 1, 44, 0.753);
+}
+
+section.lo-in {
+    padding: 10px 0px;
+}
+
+section.lo-in input {
+    background-color: lightgray;
+    padding: 8px 0px;
+    padding-left: 5px;
+    width: 80%;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+section.checkbox {
+    display: flex;
+    margin: 15px 15px;
+}
+
+.reme {
+    font-size: .8em;
+    padding-left: 5px;
+}
+
+section.checkbox > a {
+    text-decoration: none;
+    color: rgba(1, 1, 44, 0.774);
+    font-weight: 700;
+    font-size: .8em;
+    padding-left: 30px;
+}
+
+section.botao {
+    margin: 20px 0px;
+}
+
+section.botao input {
+    width: 80%;
+    padding: 8px 0px;
+    background-color: rgb(1, 1, 44);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.sign {
+    font-size: .8em;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.sign a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(1, 1, 44);
+}
+
+.footer {
+    margin: 30px 0px 10px 0px;
+}
+
+.footer h2 {
+    font-size: 1.4em;
+    color: rgb(1, 1, 44);
+    text-shadow: 0px 0px 3px rgba(1, 1, 44, 0.753);
+}
+
+.footer > a > img {
+    margin: 25px 8px 20px 0px;
+    width: 30px;
+}
