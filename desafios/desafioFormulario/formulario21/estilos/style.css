@@ -9,9 +9,7 @@
 html, body {
     width: 100%;
     height: 100%;
-    background: url(../imagem/Capturar.PNG) no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: lightblue;
 }
 
 main {
@@ -25,10 +23,13 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 8px rgba(1, 1, 56, 0.575);
     
     background-color: white;
     width: 300px;
     height: 400px;
+    transition: width .8s, height .8s;
+    transition-timing-function: ease;
 }
 
 div#formulario {
@@ -39,6 +40,7 @@ div#formulario > h1 {
     font-size: 2.0em;
     padding: 40px 0px;
     color: rgb(1, 1, 56);
+    text-shadow: 2px 2px 8px rgba(1, 1, 56, 0.63);
 }
 
 section.log-input {
@@ -46,6 +48,8 @@ section.log-input {
 }
 
 section.log-input input {
+    background-color: white;
+    color: rgb(1, 1, 56);
     width: 80%;
     padding: 7px 0px;
     padding-left: 5px;
@@ -61,7 +65,7 @@ section.log-input input {
     color: rgb(1, 1, 56);
     font-weight: 600;
     font-size: 0.8em;
-    padding-right: 28px;
+    margin-right: 28px;
 }
 
 .botao {
@@ -79,6 +83,12 @@ section.log-input input {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: url(../imagem/Capturar.PNG) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
     section#login {
         width: 80vw;
         position: relative;
@@ -99,9 +109,23 @@ section.log-input input {
 }
 
 @media screen and (min-width: 992px) {
+    body {
+        background: url(../imagem/Capturar.PNG) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
     section#login {
-        width: 60vw;
-        height: 70vh;
+        width: 780px;
+        height: 450px;
+    }
+
+    section#login > div#formulario input {
+        width: 70%;
+    }
+
+    .forg {
+        margin-right: 55px;
     }
 
     section#login > div#imagem {
