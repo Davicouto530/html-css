@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+* {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+}
+
+.item {
+    width: 180px;
+
+    padding: 20px;
+    margin: 20px;
+    
+    background-color: green;
+}
