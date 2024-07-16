@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "topo topo"
+                         "meioi meioi"
+                         "baixo baixo"
+    ;
+    gap: 20px;
+}
+
+.img-1 {
+    grid-area: topo;
+}
+
+.img-2 {
+    grid-area: baixo;
+}
+

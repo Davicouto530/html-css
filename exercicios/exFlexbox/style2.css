@@ -180,4 +180,67 @@ ul li a {
     text-transform: uppercase;
 }
 
+/*TESTE FLEXBOX-------------------------------------*/
+
+.container {
+    height: 500px;
+    width: 500px;
+    border: 1.5px solid black;
+    margin: 40px auto;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 19.7%;
+}
+
+.item-meio {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1 {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+}
+
+.item-2 {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+}
+
+.item-3 {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+}
+
+.item-4 {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+}
+
 
