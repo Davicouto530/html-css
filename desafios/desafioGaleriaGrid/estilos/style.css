@@ -17,7 +17,6 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 90px;
 }
@@ -26,20 +25,6 @@ h1 {
     margin-left: 15px;
     font-size: 1.3em;
     text-transform: uppercase;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 15px;
-    margin-right: 15px;
-}
-
-ul a {
-    text-transform: capitalize;
-    font-size: 1em;
-    text-decoration: none;
-    color: white;
 }
 
 main {
