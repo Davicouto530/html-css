@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(0, 0, 22);
+            animation: animacao 2s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animacao {
+            from {
+                background-color: rgb(0, 0, 22);
+                width: 500px;
+                height: 500px;
+            }
+
+            50% {
+                width: 300px;
+                height: 300px;
+            }
+
+            to {
+                background-color: yellow;
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
