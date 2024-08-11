@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/starbucks-nav-logo.svg" type="image/x-icon">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+</head>
+<body onresize="mudouTamanho()">
+    <header> <!--Começa do cabeçalho-->
+        <nav><!--Nav menu-->
+            <div class="nav-left"><!--Parte esquerda do cabeçalho-->
+                <a href="index.html"><img src="imagem/starbucks-nav-logo.svg" alt="Logo Starbucks"></a>
+
+                        <ul>
+                            <li><a href="#">menu</a></li>
+                            <li><a href="#">nosso café</a></li>
+                            <li><a href="#">impacto social</a></li>
+                        </ul>
+                </div>
+
+                <!--Menu hamburguer-->
+                <span id="burguer" onclick="clickMenu()" class="material-symbols-outlined">
+                    menu
+                    </span>
+                <div id="itens" class="menu-mobile">
+                    <div id="close-btn"></div>
+                <menu>
+                    <ul class="ul-header">
+                        <li><a href="#">menu</a></li>
+                        <li><a href="#">nosso café</a></li>
+                        <li><a href="#">impacto social</a></li>
+                    </ul>
+                    <hr>
+                    <a href="#"><img class="img-historia img-menu" src="imagem/sb-historias-logo.svg" alt="Foto escrita"></a>
+                <a class="enc-loja" href="#">
+                    <i class="fa-solid fa-location-dot icon-loca"></i>
+                    Encontre uma loja
+                </a>
+                </menu>
+               </div><!--Menu hamburguer-->
+            </div>
+
+            <div class="nav-right"><!--Parte direita do cabeçalho-->
+                <a href="#"><img class="img-historia" src="imagem/sb-historias-logo.svg" alt="Foto escrita"></a>
+                <a class="enc-loja" href="#">
+                    <i class="fa-solid fa-location-dot icon-loca"></i>
+                    Encontre uma loja
+                </a>
+            </div>
+        </nav>
+    </header><!--Fim do cabeçalho-->
+
+    <main>
+        <img class="img-banner-desktop" src="imagem/banner_1657816974_desktop.jpg" alt="">
+        <!--Banners para desktop e mobile-->
+        <img src="imagem/banner_1657816974_mobile.jpg" alt="" class="img-banner-mobile">
+
+        <section class="comunicado"><!--Section comunicado-->
+
+            <a href="#">"Comunicado encerramento do Programa Starbucks
+            Rewards, Starbucks Card e aplicativo Starbucks Brasil."</a>
+
+            <button class="botao" type="submit">Saiba mais</button>
+        </section>
+
+        <div class="refrescante"><!--Div do lado esquerdo do banner do refrescante-->
+            <div class="div-left">
+                <p class="p-surpre">Uma surpresa refrescante para você</p>
+                <p class="p-cold">Conheça nossa linha de <strong>Cold Brew e Refreshers</strong></p>
+
+                <button type="submit" class="botao">Saiba mais</button>
+            </div>
+
+            <div class="div-right"><!--Div do lado direito do banner do refrescante-->
+                <img src="imagem/15170_SBUX_REW_BANNERS3MAIO-02.png" alt="Foto do copo" class="img-copo">
+            </div>
+        </div>
+
+        <div class="coisas-boas"><!--Div do esquerdo do banner coisas boas-->
+            <div class="boas-left">
+                <img class="img-terra" src="imagem/guatemala.jpg" alt="Foto de planta">
+            </div>
+            <div class="boas-right"><!--Div do direito do banner coisas boas-->
+                <p class="p-estao">
+                    Coisas boas estão acontecendo
+                </p>
+
+                <p class="p-podemos">
+                    Acreditamos que podemos e devemos gerar um impacto positivo nas comunidades em que atuamos.
+                </p>
+
+                <button type="submit" class="botao">Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="noticia"><!--Div do esquerdo do banner noticia-->
+            <div class="noticia-left">
+                <p class="p-histo">
+                    Histórias e Notícias
+                    Starbucks
+                </p>
+                <p class="p-novi">
+                    fique por dentro das novidades e
+                    conheça mais sobre nossas
+                    iniciativas.
+                </p>
+                <button type="submit" class="botao">Saiba mais</button>
+            </div>
+            <div class="noticia-right"><!--Div do direito do banner noticia-->
+                <img class="img-noti" src="imagem/team.jpg" alt="">
+            </div>
+        </div>
+
+    </main>
+
+    <hr>
+
+    <footer><!--Inicio do footer(rodape)-->
+        <div class="div-footer"><!--Div do footer-->
+
+            <div class="footer-cima"><!--Div do footer na parte decima-->
+
+                <div class="footer-col">
+                    <ul>
+                        <h3>Sobre nós</h3>
+                        <li>
+                            <a href="#">Nossa empresa</a>
+                        </li>
+                        <li>
+                            <a href="#">Nosso café</a>
+                        </li>
+                        <li>
+                            <a href="#">Atendimento ao cliente</a>
+                        </li>
+                        <li>
+                            <a href="#">Compliance e Privacidade</a>
+                        </li>
+                        <li>
+                            <a href="#">Código de Ética e Conduta SouthRock</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <h3>Carreira</h3>
+                        <li>
+                            <a href="#">Central de carreiras</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <h3>Impacto Social</h3>
+                        <li>
+                            <a href="#">Comunidade</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Meio Ambiente</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Fornecimento ético</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Histórias Starbucks</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Starbucks Rewards</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Termos & Condições do Satrbucks Card</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Termos & Condições do Starbuck Rewards</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos & Condições do Gift Card</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos & Condições de Promoções Starbucks</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos & Condições Peça e Pague pelo Celular e Retire na loja</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <img class="img-footer-desktop" src="imagem/sb-historias-logo.svg" alt="">
+                </div><!--fim da div do footer decima-->
+
+            </div>
+
+            <hr>
+
+            <div class="footer-baixo"><!--Div do footer parte de baixo com as redes sociais-->
+                <nav class="nav-footer-icon">
+                    <ul>
+                        <li>
+                            <a href="https://open.spotify.com/user/starbucks" target="_blank"><i class="fa-brands fa-spotify icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/StarbucksBrasil/" target="_blank"><i class="fa-brands fa-facebook icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/starbucks-brasil/?viewAsMember=true" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/starbucksbrasil/" target="_blank"><i class="fa-brands fa-square-instagram icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC20jDcU5rfiuqtXi9uNrvqg" target="_blank"><i class="fa-brands fa-youtube icon"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/StarbucksBrasil" target="_blank"><i class="fa-brands fa-square-twitter icon"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="politica-desktop"><!--Politicas do site-->
+                    <a href="#">Política de privacidade</a>
+                    |
+                    <a href="#">Política de troca de produto</a>
+                    |
+                    <a href="#">Termos de uso</a>
+                    |
+                    <a href="#">Política de cookies</a>
+                </section>
+
+                <section class="politica-mobile">
+                    <a href="#">Política de privacidade</a>
+
+                    <a href="#">Política de troca de produto</a>
+                    
+                    <a href="#">Termos de uso</a>
+                    
+                    <a href="#">Política de cookies</a>
+                </section>
+
+                <p class="p-ultimo">2024 Starbucks Coffee Company. Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer><!--Fim do footer(rodape)-->
+
+    <script src="https://kit.fontawesome.com/c4bd617faa.js" crossorigin="anonymous">
+    </script>
+
+    <script src="menu.js"></script>
+</body>
+</html>
