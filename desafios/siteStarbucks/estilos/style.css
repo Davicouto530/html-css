@@ -606,6 +606,10 @@ menu {
         height: 105px;
     }
 
+    menu {
+        display: none;
+    }
+
     .nav-right {
         margin-right: 30px;
     }
