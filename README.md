@@ -1,6 +1,5 @@
-# html-css
- Curso de HTML5 e CSS3 do CursoemVideo
+<img src="https://www.globalwireonline.org/wp-content/uploads/2014/05/html5-css3.png" width=100 height=100>
 
- Estou aprendendo a criar sites e agora vou gerenciar meu repositórios!
+# HTML 5 e CSS 3
 
-<a herf="https://davicouto530.github.io/html-css/exercicios/ex001/index.html">Executar o exercício 001</a>
+## Curso de HTML5 e CSS3
