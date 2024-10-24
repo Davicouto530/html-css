@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de produtos</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+        }
+
+        table {
+            border: 1px black solid;
+            border-spacing: 0;
+            margin: 0 auto;
+        }
+
+        th, td {
+            border: 1px black solid;
+            width: 120px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Produtos</h1>
+
+    <table>
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preços</th>
+            <th>Site de compra</th>
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 3.239,99</td>
+            <td><a target="_blank" href="https://www.magazineluiza.com.br/notebook-acer-aspire-5-intel-core-i5-12450h-8gb-ram-512gb-ssd-156-full-hd-windows-11-a515-57-565j/p/237866400/in/nota/">Magazine luíza</a></td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$ 1.259,99</td>
+            <td><a target="_blank" href="https://www.casasbahia.com.br/tablet-samsung-galaxy-tab-a9-5g-sm-x216-com-tela-11-64gb-wifi-e-4gb-ram-camera-traseira-8mp-android-13-e-processador-octa-core-grafite/p/55065773?utm_campaign=gg_nbrd_tabl&utm_medium=cpc&utm_source=bing_search">Casas bahia</a></td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>Celular</td>
+            <td>R$ 3.899,99</td>
+            <td><a target="_blank" href="https://site.fastshop.com.br/iphone-13-apple--128gb--meia-noite--tela-de-6-1---5g-e-camera-dupla-de-12-mp-aemlpf3brapto_prd/p">Fast shop</a></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="3">Cupom1 - R$32</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Cupom2 - R$55</td>
+        </tr>
+
+        <tr>
+            <td>Total</td>
+            <td colspan="3">R$ 3.740.99</td>
+        </tr>
+    </table>
+</body>
+</html>
