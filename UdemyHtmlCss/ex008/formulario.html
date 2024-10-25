@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form action="#">
+        <label for="login">Login:</label>
+        <input type="text" name="login" id="login">
+
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+
+        <br>
+        
+        <input type="submit" value="Salvar">
+
+        <h1>Cadastre-se</h1>
+
+        <label for="login">Login:</label>
+        <input type="text" name="login" id="login">
+
+        <br>
+
+        <label for="sexo">Sexo:</label>
+        <br>
+        <input checked type="radio" name="sexo" id="sexo" value="M">Masculino
+        <br>
+        <input type="radio" name="sexo" id="sexo" value="F">Feminino
+
+        <br><br>
+
+        <label for="inte">Interesses</label>
+        <br>
+        <input type="checkbox" name="inte" id="inte">Futebol
+        <br>
+        <input type="checkbox" name="inte" id="inte">Cursos
+        <br>
+        <input type="checkbox" name="inte" id="inte">Moda
+
+        <br><br>
+
+        <label for="estados">Estados</label>
+        <select name="estados" id="estados">
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="mg">MG</option>
+            <option value="rs">RS</option>
+        </select>
+
+        <br><br>
+
+        <label for="ob">Observações</label><br>
+        <textarea name="ob" id="ob">
+
+        </textarea>
+
+        <br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
