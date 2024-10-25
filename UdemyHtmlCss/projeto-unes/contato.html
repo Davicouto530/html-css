@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNES - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1, p {
+            margin: 20px 0px;
+        }
+
+        hr {
+            margin: 25px 0px;
+        }
+
+        #form-content {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 25px;
+        }
+
+        #form-content label {
+            font-weight: 600;
+        }
+
+        #form-content input, #ta {
+            margin: 0 auto;
+            width: 180px;
+            margin-bottom: 15px;
+            padding-left: 2px;
+            text-decoration: none;
+            outline: none;
+        }
+
+        #botao {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="imagens/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="unes.html">Home</a></li>
+                <li><a href="somos.html">Quem somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Entre em contato</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci porro ipsum cupiditate quam reiciendis.</p>
+
+        <hr>
+
+        <form autocomplete="off" action="#" id="form-content">
+            <label for="nome">Seu nome completo:</label>
+            <input type="text" name="nome" id="nome">
+
+            <label for="email">Seu e-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="descri">Descrição:</label>
+            <textarea id="ta" name="descri" id="descri"></textarea>
+
+            <input id="botao" type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer><!--Inicio do rodapé-->
+        <h3>Todos os direitos reservados</h3>
+
+        <p class="p-center">Feito por <a target="_blank" href="https://github.com/Davicouto530">Davi do couto</a> junto a <a target="_blank" href=" https://www.udemy.com">Udemy</a></p>
+    </footer><!--Fim do rodapé-->
+</body>
+</html>
