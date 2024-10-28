@@ -8,7 +8,7 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: url(fundo.png);
+    background: url(imagem/fundo.png);
 }
 
 /*Smartphone portrait*/
@@ -30,8 +30,8 @@ nav {
 
 #ul-menu {
     display: flex;
-    list-style: none;
     gap: 10px;
+    list-style: none;
 }
 
 #ul-menu a {
@@ -40,30 +40,29 @@ nav {
     font-weight: 600;
 }
 
-#ul-menu a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+#ul-menu a:hover {
+    color: rgba(0, 0, 0, 0.658);
+    transition: 0.2s;
 }
 
-#sobre-anna {
+#biografia-anna {
     background-color: #e6c9a05e;
     max-width: 90vw;
     margin: 0 auto;
-    height: 500px;
+    height: 780px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-#sobre-anna h1 {
+#biografia-anna h1 {
     color: #4e412fe0;
     padding: 20px 0px 10px 25px;
 }
 
-#sobre-anna p {
+#biografia-anna p {
     max-width: 90%;
-    padding: 8px;
     margin: 0 auto;
+    padding: 10px;
     text-align: justify;
 }
 
@@ -87,6 +86,10 @@ footer p a {
     font-weight: 700;
 }
 
+footer p a:hover {
+    color: rgba(0, 0, 0, 0.658);
+    transition: 0.2s;
+}
 
 /*Media query*/
 
@@ -97,74 +100,53 @@ footer p a {
         width: 100%;
         height: 220px;
     }
-
+    
     nav {
         background-color: #8a7f53bd;
         height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 15px;
+        font-size: 12px;
         text-transform: uppercase;
     }
-
+    
     #ul-menu {
         display: flex;
-        list-style: none;
         gap: 30px;
+        list-style: none;
     }
-
+    
     #ul-menu a {
         text-decoration: none;
         color: black;
         font-weight: 600;
     }
-
-    #ul-menu a {
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
+    
+    #ul-menu a:hover {
+        color: rgba(0, 0, 0, 0.658);
+        transition: 0.2s;
     }
-
-    #sobre-anna {
+    
+    #biografia-anna {
         background-color: #e6c9a05e;
         max-width: 90vw;
         margin: 0 auto;
-        height: 380px;
+        height: 520px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-
-    #sobre-anna h1 {
+    
+    #biografia-anna h1 {
         color: #4e412fe0;
         padding: 20px 0px 10px 35px;
     }
-
-    #sobre-anna p {
+    
+    #biografia-anna p {
         max-width: 90%;
-        padding: 8px;
         margin: 0 auto;
+        padding: 10px;
         text-align: justify;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    footer h1 {
-        font-size: 18px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-
-    footer p {
-        margin-bottom: 15px;
-    }
-
-    footer p a {
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
     }
 }
 
@@ -198,51 +180,30 @@ footer p a {
         font-weight: 600;
     }
 
-    #ul-menu a {
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
+    #ul-menu a:hover {
+        color: rgba(0, 0, 0, 0.658);
+        transition: 0.2s;
     }
 
-    #sobre-anna {
+    #biografia-anna {
         background-color: #e6c9a05e;
         max-width: 90vw;
         margin: 0 auto;
-        height: 350px;
+        height: 480px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-
-    #sobre-anna h1 {
+    
+    #biografia-anna h1 {
         color: #4e412fe0;
         padding: 20px 0px 10px 40px;
     }
-
-    #sobre-anna p {
+    
+    #biografia-anna p {
         max-width: 90%;
-        padding: 8px;
         margin: 0 auto;
+        padding: 10px;
         text-align: justify;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    footer h1 {
-        font-size: 18px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-
-    footer p {
-        margin-bottom: 15px;
-    }
-
-    footer p a {
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
     }
 }
 
@@ -251,7 +212,7 @@ footer p a {
 @media (min-width: 992px) {
     #img-capa {
         width: 100%;
-        height: 300px;
+        height: 330px;
     }
 
     nav {
@@ -276,51 +237,30 @@ footer p a {
         font-weight: 600;
     }
 
-    #ul-menu a {
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
+    #ul-menu a:hover {
+        color: rgba(0, 0, 0, 0.658);
+        transition: 0.2s;
     }
 
-    #sobre-anna {
+    #biografia-anna {
         background-color: #e6c9a05e;
         max-width: 90vw;
         margin: 0 auto;
-        height: 300px;
+        height: 430px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-
-    #sobre-anna h1 {
+    
+    #biografia-anna h1 {
         color: #4e412fe0;
-        padding: 20px 0px 10px 50px;
+        padding: 20px 0px 10px 40px;
     }
-
-    #sobre-anna p {
+    
+    #biografia-anna p {
         max-width: 90%;
-        padding: 8px;
         margin: 0 auto;
+        padding: 10px;
         text-align: justify;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    footer h1 {
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-
-    footer p {
-        margin-bottom: 15px;
-    }
-
-    footer p a {
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
     }
 }
 
@@ -334,7 +274,7 @@ footer p a {
 
     #img-capa {
         width: 100%;
-        height: 260px;
+        height: 350px;
     }
 
     nav {
@@ -364,45 +304,25 @@ footer p a {
         transition: 0.2s;
     }
 
-    #sobre-anna {
+    #biografia-anna {
         background-color: #e6c9a05e;
         max-width: 90vw;
         margin: 0 auto;
-        height: 350px;
+        height: 430px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-
-    #sobre-anna h1 {
+    
+    #biografia-anna h1 {
         color: #4e412fe0;
         padding: 20px 0px 10px 100px;
     }
-
-    #sobre-anna p {
+    
+    #biografia-anna p {
         max-width: 80%;
-        padding: 8px;
         margin: 0 auto;
+        padding: 10px;
         text-align: justify;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    footer h1 {
-        font-size: 18px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-
-    footer p {
-        margin-bottom: 15px;
-    }
-
-    footer p a {
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
     }
 }
 
@@ -416,7 +336,7 @@ footer p a {
 
     #img-capa {
         width: 100%;
-        height: 280px;
+        height: 380px;
     }
 
     nav {
@@ -446,44 +366,24 @@ footer p a {
         transition: 0.2s;
     }
 
-    #sobre-anna {
+    #biografia-anna {
         background-color: #e6c9a05e;
         max-width: 90vw;
         margin: 0 auto;
-        height: 330px;
+        height: 400px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-
-    #sobre-anna h1 {
+    
+    #biografia-anna h1 {
         color: #4e412fe0;
         padding: 20px 0px 10px 120px;
     }
-
-    #sobre-anna p {
+    
+    #biografia-anna p {
         max-width: 75%;
-        padding: 8px;
         margin: 0 auto;
+        padding: 10px;
         text-align: justify;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    footer h1 {
-        font-size: 18px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-
-    footer p {
-        margin-bottom: 15px;
-    }
-
-    footer p a {
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
     }
 }
