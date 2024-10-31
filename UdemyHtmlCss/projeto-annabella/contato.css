@@ -106,3 +106,385 @@ footer p a:hover {
     color: rgba(0, 0, 0, 0.658);
     transition: 0.2s;
 }
+
+/*Media query*/
+
+/*Smartphone landscape*/
+
+@media (min-width: 576px) {
+    #img-capa {
+        width: 100%;
+        height: 220px;
+    }
+    
+    nav {
+        background-color: #8a7f53bd;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    #ul-menu {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+    
+    #ul-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+    
+    #ul-menu a:hover {
+        color: rgba(0, 0, 0, 0.658);
+        transition: 0.2s;
+    }
+
+    #contato-anna {
+        background-color: #e6c9a05e;
+        max-width: 90vw;
+        margin: 0 auto;
+        height: 700px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    #p-lorem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #p-lorem img {
+        width: 90%;
+    }
+    
+    #p-lorem h1 {
+        color: #4e412fe0;
+        margin-top: 20px;
+    }
+    
+    #p-lorem p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 25px 10px;
+    }
+    
+    #p-contato {
+        margin: 50px 0px 0px 25px;
+    }
+    
+    #p-contato p {
+        margin-bottom: 10px;
+    }
+}    
+
+/*Tablet portrait*/ 
+
+@media (min-width: 768px) {
+    #img-capa {
+        width: 100%;
+        height: 290px;
+    }
+
+    nav {
+        background-color: #8a7f53bd;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+
+    #ul-menu {
+        display: flex;
+        list-style: none;
+        gap: 50px;
+    }
+
+    #ul-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    #ul-menu a:hover {
+        color: rgba(0, 0, 0, 0.658);
+        transition: 0.2s;
+    }
+
+    #contato-anna {
+        background-color: #e6c9a05e;
+        max-width: 90vw;
+        margin: 0 auto;
+        height: 750px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    #p-lorem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #p-lorem img {
+        width: 90%;
+    }
+    
+    #p-lorem h1 {
+        color: #4e412fe0;
+        margin-top: 20px;
+    }
+    
+    #p-lorem p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 25px 10px;
+    }
+    
+    #p-contato {
+        margin: 50px 0px 0px 35px;
+    }
+    
+    #p-contato p {
+        margin-bottom: 10px;
+    }
+}    
+
+/*Tablet landscape*/ 
+
+@media (min-width: 992px) {
+    #img-capa {
+        width: 100%;
+        height: 330px;
+    }
+
+    nav {
+        background-color: #8a7f53bd;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    #ul-menu {
+        display: flex;
+        list-style: none;
+        gap: 70px;
+    }
+
+    #ul-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    #ul-menu a:hover {
+        color: rgba(0, 0, 0, 0.658);
+        transition: 0.2s;
+    }
+
+    #contato-anna {
+        background-color: #e6c9a05e;
+        max-width: 90vw;
+        margin: 0 auto;
+        height: 880px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    #p-lorem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #p-lorem img {
+        width: 90%;
+    }
+    
+    #p-lorem h1 {
+        color: #4e412fe0;
+        margin-top: 20px;
+    }
+    
+    #p-lorem p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 25px 10px;
+    }
+    
+    #p-contato {
+        margin: 50px 0px 0px 45px;
+    }
+    
+    #p-contato p {
+        margin-bottom: 10px;
+    }
+}    
+
+/*PCS e Notebooks*/ 
+
+@media (min-width: 1200px) {
+    body {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+
+    #img-capa {
+        width: 100%;
+        height: 350px;
+    }
+
+    nav {
+        background-color: #8a7f53bd;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+
+    #ul-menu {
+        display: flex;
+        list-style: none;
+        gap: 50px;
+    }
+
+    #ul-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    #contato-anna {
+        background-color: #e6c9a05e;
+        max-width: 90vw;
+        margin: 0 auto;
+        height: 880px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    #p-lorem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #p-lorem img {
+        width: 90%;
+    }
+    
+    #p-lorem h1 {
+        color: #4e412fe0;
+        margin-top: 20px;
+    }
+    
+    #p-lorem p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 25px 10px;
+    }
+    
+    #p-contato {
+        margin: 50px 0px 0px 45px;
+    }
+    
+    #p-contato p {
+        margin-bottom: 10px;
+    }
+}    
+
+/*Telas FullHD / 4K / SmartTVS*/
+
+@media (min-width: 1400px) {
+    body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #img-capa {
+        width: 100%;
+        height: 380px;
+    }
+
+    nav {
+        background-color: #8a7f53bd;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 19px;
+        text-transform: uppercase;
+    }
+
+    #ul-menu {
+        display: flex;
+        list-style: none;
+        gap: 80px;
+    }
+
+    #ul-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    #ul-menu a:hover {
+        color: rgba(0, 0, 0, 0.658);
+        transition: 0.2s;
+    }
+
+    #contato-anna {
+        background-color: #e6c9a05e;
+        max-width: 90vw;
+        margin: 0 auto;
+        height: 850px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    #p-lorem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #p-lorem img {
+        width: 90%;
+    }
+    
+    #p-lorem h1 {
+        color: #4e412fe0;
+        margin-top: 20px;
+    }
+    
+    #p-lorem p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 25px 10px;
+    }
+    
+    #p-contato {
+        margin: 50px 0px 0px 55px;
+    }
+    
+    #p-contato p {
+        margin-bottom: 10px;
+    }
+}    
