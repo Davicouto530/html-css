@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background: rgb(1, 1, 41);
+        }
+
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+        }
+        
+        p {
+            width: 300px;
+        }
+
+        .fixed {
+            border: 2px solid black;
+            background: #f2f2f2;
+            position: fixed; /*top, right, bottom e left*/
+            top: 0px;
+            left: 0px;
+            margin: 0px;
+        }
+
+        .absolute {
+            border: 2px solid black;
+            background-color: #f2f2f2;
+            position: absolute; /*O container que ele está dentro precisa ter uma position para que a "position: absolute;"" fique alinhada dentro do container.*/
+            top: 80px;
+            right: 20px;
+        }
+
+        .relative {
+            border: 2px solid black;
+            position: relative;
+            /*Propriedades de deslocamento no position relative: top, right, bottom e left*/
+            top: -20px;
+            right: 15px;
+            bottom: 10px;
+            left: 80px;
+            /*Pode colocar valor normal, mas tambem pode colocar a=valor negativo, que só vai mudar a direção*/
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p class="absolute">
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p class="relative">
+            P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p class="fixed">
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquid cupiditate error pariatur numquam vero! Incidunt esse sit rerum quaerat non enim at unde molestiae velit exercitationem! Dicta, vel incidunt.
+        </p>
+    </div>
+</body>
+</html>

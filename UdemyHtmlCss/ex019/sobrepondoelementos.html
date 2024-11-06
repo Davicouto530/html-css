@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreponto elementos</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .conteudo1 {
+            border: 2px solid black;
+            background: orange;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 2; /*O "z-index:;" sobrepõem um conteúdo do outro, se o valor do que vc quer que fique na frente estiver maior que o valor do conteúdo que vc quer que fique atrás.*/
+        }
+
+        .conteudo2 {
+            border: 2px solid black;
+            background: red;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            z-index: 1;
+            text-align: right;
+        }
+
+        .conteudo3 {
+            border: 2px solid black;
+            background: green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 160px;
+            left: 160px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo1">
+        conteúdo1
+    </div>
+
+    <div class="conteudo2">
+        conteúdo2
+    </div>
+
+    <div class="conteudo3">
+        conteúdo3
+    </div>
+</body>
+</html>
