@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    color: red;
+    border: 2px solid black;
+}
+
+#pagina p {
+    color: green !important; /*O "!important" serve para falar que essa propriedade tem que ser feita acima das outras que seja a mesma tag.*/
+}
+
+#pagina p {
+    color: orangered;
+}
+
+/*Especificidade*/
+
+h1 {
+    color: pink;
+}
+/*A tag com a class se sobrepõe de só a tag, então vai ser feita a modificação da tag que tem a class.*/
+h1.verde {
+    color: rgb(231, 65, 92);
+}
+/*A tag com o id se sobrepõe da tag sozinha e da class, então vai ser feita a modificação da tag que tem id.*/
+h1#amarelo {
+    color: yellow;
+}
