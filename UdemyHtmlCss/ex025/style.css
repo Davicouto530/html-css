@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    display: flex;
+}
+
+ul li {
+    background: url(imagem/aba-direita.png) no-repeat top right;
+}
+
+ul a {
+    display: block;
+    padding: 15px 35px;
+    text-decoration: none;
+    background: url(imagem/aba-esquerda.png) no-repeat top left;
+    color: #fff;
+    font-weight: 600;
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul #atual {
+    background: url(imagem/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+    background: url(imagem/aba-esquerda-atual.png) no-repeat top left;
+}

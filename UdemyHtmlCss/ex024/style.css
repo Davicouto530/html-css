@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navegacao {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    height: 45px;
+    background: #159cb0 url(imagem/fundo-horizontal.png) repeat-x;
+    display: flex;
+    align-items: center;
+}
+
+#navegacao a {
+    display: block;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background: url(imagem/divisor.png) repeat-y left top;
+}
+
+#navegacao a:hover {
+    color: #085662;
+    background: #44cade;
+}
+
+/*Serve para quando você mudar de página, ficar marcado no menu em qual p´gina você tá.*/
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticia #navegacao .noticia a,
+#contato #navegacao .contato a {
+    color: #085662;
+    background: #44cade;
+}
