@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse; /*Serve para tirar os espaços que fica nas bordas da tabela*/
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 0.9em;
+    letter-spacing: 0.1em; /*Serve para da um espaço entre as letras*/
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+
+.numero {
+    text-align: right;
+}
