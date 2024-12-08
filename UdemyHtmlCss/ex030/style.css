@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset {
+    margin: 20px 0px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.425);
+}
+
+legend {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+label {
+    display: block; /*Serve para quebrar a linha e deixar a caixa de texto embaixo*/
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*Esse "[type=""]" do lado do input serve para colocar o tipo de input que você quer modificar, para não fazer a mesma modificação para outros tipos de input*/
+input[type="text"] {
+    width: 280px;
+    outline: none;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 5px;
+}
