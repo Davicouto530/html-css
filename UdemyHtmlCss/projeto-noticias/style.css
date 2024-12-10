@@ -11,7 +11,7 @@ body {
     background: #fff url(imagens/fundo.png) repeat-x;
 }
 
-#container {
+#container1 {
     width: 750px;
     margin: 0 auto;
 }
@@ -78,7 +78,7 @@ main {
     margin-top: 100px;
 }
 
-div#container {
+div#container2 {
     display: flex;
 }
 
@@ -87,6 +87,7 @@ div#entrevista {
     background: url(imagens/fundo-caixa.png);
     margin-right: 20px;
     padding: 10px;
+    width: 180px;
     height: 385px;
 }
 
@@ -116,7 +117,7 @@ div#ultima-entrevista {
     height: 315px;
 }
 
-div#ultima-entrevista h2 {
+div#ultima-entrevista #medico h2 {
     font-size: 1.2em;
     margin-bottom: 15px;
     padding: 5px;
@@ -124,7 +125,7 @@ div#ultima-entrevista h2 {
     color: #fff;
 }
 
-div#ultima-entrevista h3 {
+div#ultima-entrevista #medico h3 {
     background-color: darkred;
     font-size: 0.8em;
     width: 190px;
@@ -134,12 +135,12 @@ div#ultima-entrevista h3 {
     text-transform: uppercase;
 }
 
-div#ultima-entrevista img {
+div#ultima-entrevista #medico img {
     width: 240px;
     height: auto;
 }
 
-div#ultima-entrevista a {
+div#ultima-entrevista #medico a {
     color: darkred;
 }
 /*Fim da parte da img do doutor*/
@@ -177,4 +178,47 @@ div#destaque img {
 
 div#destaque a {
     color: darkred;
+}
+
+/*Inicio da parte do email*/
+section#cadastro {
+    margin-top: 40px;
+    background: url(imagens/fundo-caixa.png);
+    margin-right: 20px;
+    padding: 10px;
+    height: 155px;
+    width: 170px;
+}
+
+section#cadastro input[type="email"] {
+    width: 150px;
+    outline: none;
+    padding: 4px 0px;
+    margin: 5px 0px;
+}
+
+section#cadastro input[type="submit"] {
+    border: none;
+    background: darkred;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+/*Fim da parte do email*/
+
+/*Inicio da parte das varias fotos, titulo mundo*/
+div#fotos-mundo {
+    margin-top: 40px;
+    background: url(imagens/fundo-caixa.png);
+    margin-right: 20px;
+    padding: 10px;
+}
+
+div#fotos-mundo section {
+    background-color: #fff;
+}
+
+div#fotos-mundo section img {
+    width: 100px;
 }
