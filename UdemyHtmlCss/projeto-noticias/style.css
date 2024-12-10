@@ -20,7 +20,7 @@ body {
     height: 150px;
     background: url(imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .logo {
@@ -29,3 +29,152 @@ body {
     background: url(imagens/logo.png);
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    width: 600px;
+    margin-top: 30px;
+    display: flex;
+    background: #b10333;
+}
+
+#topo ul li a {
+    font-size: 1em;
+    display: block;
+    padding: 10px 15px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #fff;
+    background: url(imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+/*Serve para deixar selecionado em qual página vc ta*/
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional, 
+body.economia #navegacao a#economia, 
+body.saude #navegacao a#saude, 
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+    color: #fff;
+    background: #de003e;
+}
+
+main {
+    max-width: 780px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+div#container {
+    display: flex;
+}
+
+/*Inicio da parte da entrevista com os nomes*/
+div#entrevista {
+    background: url(imagens/fundo-caixa.png);
+    margin-right: 20px;
+    padding: 10px;
+    height: 385px;
+}
+
+div#entrevista #nomes {
+    background-color: #fff;
+}
+
+div#entrevista #nomes p {
+    padding: 10px 5px;
+}
+
+div#entrevista h2 {
+    font-size: 1.2em;
+    width: 140px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: rgb(1, 1, 51);
+    color: #fff;
+}
+/*Fim da parte da entrevista com os nomes*/
+
+/*Inicio da parte da img do doutor*/
+div#ultima-entrevista {
+    background: url(imagens/fundo-caixa.png);
+    margin-right: 20px;
+    padding: 10px;
+    height: 315px;
+}
+
+div#ultima-entrevista h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: rgb(1, 1, 51);
+    color: #fff;
+}
+
+div#ultima-entrevista h3 {
+    background-color: darkred;
+    font-size: 0.8em;
+    width: 190px;
+    color: #fff;
+    margin-bottom: 5px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+div#ultima-entrevista img {
+    width: 240px;
+    height: auto;
+}
+
+div#ultima-entrevista a {
+    color: darkred;
+}
+/*Fim da parte da img do doutor*/
+
+/*Inicio da parte da img do taxi*/
+div#destaque {
+    background: url(imagens/fundo-caixa.png);
+    margin-right: 20px;
+    padding: 10px;
+    height: 315px;
+}
+
+div#destaque h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: rgb(1, 1, 51);
+    color: #fff;
+}
+
+div#destaque h3 {
+    background-color: darkred;
+    font-size: 0.8em;
+    width: 190px;
+    margin-bottom: 5px;
+    color: #fff;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+div#destaque img {
+    width: 240px;
+    height: auto;
+}
+
+div#destaque a {
+    color: darkred;
+}
