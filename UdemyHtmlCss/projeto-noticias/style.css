@@ -87,7 +87,7 @@ div#entrevista {
     background: url(imagens/fundo-caixa.png);
     margin-right: 20px;
     padding: 10px;
-    width: 180px;
+    width: 185px;
     height: 385px;
 }
 
@@ -95,8 +95,21 @@ div#entrevista #nomes {
     background-color: #fff;
 }
 
-div#entrevista #nomes p {
+div#entrevista ul li {
     padding: 10px 5px;
+}
+
+div#entrevista #nomes a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+div#entrevista #nomes a:hover {
+    background: url(imagens/marcador.png) no-repeat;
+    background-position: 0px;
+    color: rgba(0, 0, 0, 0.644);
+    padding: 10px 0px 10px 20px;
 }
 
 div#entrevista h2 {
@@ -110,7 +123,7 @@ div#entrevista h2 {
 /*Fim da parte da entrevista com os nomes*/
 
 /*Inicio da parte da img do doutor*/
-div#ultima-entrevista {
+div#ultima-entrevista #medico {
     background: url(imagens/fundo-caixa.png);
     margin-right: 20px;
     padding: 10px;
@@ -136,7 +149,7 @@ div#ultima-entrevista #medico h3 {
 }
 
 div#ultima-entrevista #medico img {
-    width: 240px;
+    width: 220px;
     height: auto;
 }
 
@@ -146,14 +159,14 @@ div#ultima-entrevista #medico a {
 /*Fim da parte da img do doutor*/
 
 /*Inicio da parte da img do taxi*/
-div#destaque {
+div#destaque #taxi {
     background: url(imagens/fundo-caixa.png);
     margin-right: 20px;
     padding: 10px;
     height: 315px;
 }
 
-div#destaque h2 {
+div#destaque #taxi h2 {
     font-size: 1.2em;
     margin-bottom: 15px;
     padding: 5px;
@@ -161,7 +174,7 @@ div#destaque h2 {
     color: #fff;
 }
 
-div#destaque h3 {
+div#destaque #taxi h3 {
     background-color: darkred;
     font-size: 0.8em;
     width: 190px;
@@ -171,14 +184,15 @@ div#destaque h3 {
     text-transform: uppercase;
 }
 
-div#destaque img {
-    width: 240px;
+div#destaque #taxi img {
+    width: 220px;
     height: auto;
 }
 
-div#destaque a {
+div#destaque #taxi a {
     color: darkred;
 }
+/*Fim da parte da img do taxi*/
 
 /*Inicio da parte do email*/
 section#cadastro {
@@ -207,9 +221,9 @@ section#cadastro input[type="submit"] {
 }
 /*Fim da parte do email*/
 
-/*Inicio da parte das varias fotos, titulo mundo*/
+/*Formando a lista de noticias mundo*/
 div#fotos-mundo {
-    margin-top: 40px;
+    margin-top: 20px;
     background: url(imagens/fundo-caixa.png);
     margin-right: 20px;
     padding: 10px;
@@ -217,8 +231,101 @@ div#fotos-mundo {
 
 div#fotos-mundo section {
     background-color: #fff;
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+div#fotos-mundo h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: rgb(1, 1, 51);
+    color: #fff;
+}
+
+div#fotos-mundo section a {
+    min-width: 120px;
+    font-size: 0.8em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+div#fotos-mundo section a h4 {
+    color: rgb(3, 3, 179);
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+div#fotos-mundo section a p {
+    color: black;
 }
 
 div#fotos-mundo section img {
-    width: 100px;
+    width: 80px;
+}
+/*Fim da formatação da lista de noticias mundo*/
+
+/*Formando a lista de notícias recentes*/
+div#noticias-recentes {
+    margin-top: 20px;
+    background: url(imagens/fundo-caixa.png);
+    margin-right: 20px;
+    padding: 10px;
+}
+
+div#noticias-recentes section {
+    background-color: #fff;
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+div#noticias-recentes h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: rgb(1, 1, 51);
+    color: #fff;
+}
+
+div#noticias-recentes section a {
+    min-width: 120px;
+    font-size: 0.8em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+div#noticias-recentes section a h4 {
+    color: rgb(3, 3, 179);
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+div#noticias-recentes section a p {
+    color: black;
+}
+
+div#noticias-recentes section img {
+    width: 80px;
+}
+
+/*Formatando o rodapé*/
+footer {
+    height: 90px;
+    background: rgb(1, 1, 51);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 1.1em;
+    margin-left: 50px;
+}
+
+footer h2 a {
+    color: #fff;
+    text-decoration: none;
 }
