@@ -122,78 +122,6 @@ div#entrevista h2 {
 }
 /*Fim da parte da entrevista com os nomes*/
 
-/*Inicio da parte da img do doutor*/
-div#ultima-entrevista #medico {
-    background: url(imagens/fundo-caixa.png);
-    margin-right: 20px;
-    padding: 10px;
-    height: 315px;
-}
-
-div#ultima-entrevista #medico h2 {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    padding: 5px;
-    background: rgb(1, 1, 51);
-    color: #fff;
-}
-
-div#ultima-entrevista #medico h3 {
-    background-color: darkred;
-    font-size: 0.8em;
-    width: 190px;
-    color: #fff;
-    margin-bottom: 5px;
-    padding: 2px;
-    text-transform: uppercase;
-}
-
-div#ultima-entrevista #medico img {
-    width: 220px;
-    height: auto;
-}
-
-div#ultima-entrevista #medico a {
-    color: darkred;
-}
-/*Fim da parte da img do doutor*/
-
-/*Inicio da parte da img do taxi*/
-div#destaque #taxi {
-    background: url(imagens/fundo-caixa.png);
-    margin-right: 20px;
-    padding: 10px;
-    height: 315px;
-}
-
-div#destaque #taxi h2 {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    padding: 5px;
-    background: rgb(1, 1, 51);
-    color: #fff;
-}
-
-div#destaque #taxi h3 {
-    background-color: darkred;
-    font-size: 0.8em;
-    width: 190px;
-    margin-bottom: 5px;
-    color: #fff;
-    padding: 2px;
-    text-transform: uppercase;
-}
-
-div#destaque #taxi img {
-    width: 220px;
-    height: auto;
-}
-
-div#destaque #taxi a {
-    color: darkred;
-}
-/*Fim da parte da img do taxi*/
-
 /*Inicio da parte do email*/
 section#cadastro {
     margin-top: 40px;
@@ -220,6 +148,41 @@ section#cadastro input[type="submit"] {
     cursor: pointer;
 }
 /*Fim da parte do email*/
+
+/*Inicio da parte da img do doutor*/
+div#ultima-entrevista #medico {
+    background: url(imagens/fundo-caixa.png);
+    margin-right: 20px;
+    padding: 10px;
+}
+
+div#ultima-entrevista #medico h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: rgb(1, 1, 51);
+    color: #fff;
+}
+
+div#ultima-entrevista #medico h3 {
+    background-color: darkred;
+    font-size: 0.8em;
+    width: 190px;
+    color: #fff;
+    margin-bottom: 5px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+div#ultima-entrevista #medico img {
+    width: 100%;
+    height: auto;
+}
+
+div#ultima-entrevista #medico a {
+    color: darkred;
+}
+/*Fim da parte da img do doutor*/
 
 /*Formando a lista de noticias mundo*/
 div#fotos-mundo {
@@ -265,50 +228,6 @@ div#fotos-mundo section img {
     width: 80px;
 }
 /*Fim da formatação da lista de noticias mundo*/
-
-/*Formando a lista de notícias recentes*/
-div#noticias-recentes {
-    margin-top: 20px;
-    background: url(imagens/fundo-caixa.png);
-    margin-right: 20px;
-    padding: 10px;
-}
-
-div#noticias-recentes section {
-    background-color: #fff;
-    display: flex;
-    padding: 5px;
-    border-bottom: 1px solid #ccc;
-}
-
-div#noticias-recentes h2 {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    padding: 5px;
-    background: rgb(1, 1, 51);
-    color: #fff;
-}
-
-div#noticias-recentes section a {
-    min-width: 120px;
-    font-size: 0.8em;
-    padding-left: 10px;
-    text-decoration: none;
-}
-
-div#noticias-recentes section a h4 {
-    color: rgb(3, 3, 179);
-    text-transform: uppercase;
-    font-size: 0.8em;
-}
-
-div#noticias-recentes section a p {
-    color: black;
-}
-
-div#noticias-recentes section img {
-    width: 80px;
-}
 
 /*Formatando o rodapé*/
 footer {

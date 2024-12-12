@@ -80,90 +80,15 @@ main {
 
 div#container2 {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-/*Inicio da parte da entrevista com os nomes*/
-div#entrevista {
-    background: url(imagens/fundo-caixa.png);
-    margin-right: 20px;
-    padding: 10px;
-    width: 185px;
-    height: 385px;
-}
-
-div#entrevista #nomes {
-    background-color: #fff;
-}
-
-div#entrevista ul li {
-    padding: 10px 5px;
-}
-
-div#entrevista #nomes a {
-    font-weight: 600;
-    text-decoration: none;
-    color: #000;
-}
-
-div#entrevista #nomes a:hover {
-    background: url(imagens/marcador.png) no-repeat;
-    background-position: 0px;
-    color: rgba(0, 0, 0, 0.644);
-    padding: 10px 0px 10px 20px;
-}
-
-div#entrevista h2 {
-    font-size: 1.2em;
-    width: 140px;
-    margin-bottom: 15px;
-    padding: 5px;
-    background: rgb(1, 1, 51);
-    color: #fff;
-}
-/*Fim da parte da entrevista com os nomes*/
-
-/*Inicio da parte da img do doutor*/
-div#ultima-entrevista #medico {
-    background: url(imagens/fundo-caixa.png);
-    margin-right: 20px;
-    padding: 10px;
-    height: 315px;
-}
-
-div#ultima-entrevista #medico h2 {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    padding: 5px;
-    background: rgb(1, 1, 51);
-    color: #fff;
-}
-
-div#ultima-entrevista #medico h3 {
-    background-color: darkred;
-    font-size: 0.8em;
-    width: 190px;
-    color: #fff;
-    margin-bottom: 5px;
-    padding: 2px;
-    text-transform: uppercase;
-}
-
-div#ultima-entrevista #medico img {
-    width: 220px;
-    height: auto;
-}
-
-div#ultima-entrevista #medico a {
-    color: darkred;
-}
-/*Fim da parte da img do doutor*/
 
 /*Inicio da parte da img do taxi*/
 div#destaque #taxi {
     background: url(imagens/fundo-caixa.png);
     margin-right: 20px;
     padding: 10px;
-    height: 315px;
 }
 
 div#destaque #taxi h2 {
@@ -185,7 +110,7 @@ div#destaque #taxi h3 {
 }
 
 div#destaque #taxi img {
-    width: 220px;
+    width: 100%;
     height: auto;
 }
 
@@ -193,78 +118,6 @@ div#destaque #taxi a {
     color: darkred;
 }
 /*Fim da parte da img do taxi*/
-
-/*Inicio da parte do email*/
-section#cadastro {
-    margin-top: 40px;
-    background: url(imagens/fundo-caixa.png);
-    margin-right: 20px;
-    padding: 10px;
-    height: 155px;
-    width: 170px;
-}
-
-section#cadastro input[type="email"] {
-    width: 150px;
-    outline: none;
-    padding: 4px 0px;
-    margin: 5px 0px;
-}
-
-section#cadastro input[type="submit"] {
-    border: none;
-    background: darkred;
-    padding: 8px;
-    border-radius: 4px;
-    color: #fff;
-    cursor: pointer;
-}
-/*Fim da parte do email*/
-
-/*Formando a lista de noticias mundo*/
-div#fotos-mundo {
-    margin-top: 20px;
-    background: url(imagens/fundo-caixa.png);
-    margin-right: 20px;
-    padding: 10px;
-}
-
-div#fotos-mundo section {
-    background-color: #fff;
-    display: flex;
-    padding: 5px;
-    border-bottom: 1px solid #ccc;
-}
-
-div#fotos-mundo h2 {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-    padding: 5px;
-    background: rgb(1, 1, 51);
-    color: #fff;
-}
-
-div#fotos-mundo section a {
-    min-width: 120px;
-    font-size: 0.8em;
-    padding-left: 10px;
-    text-decoration: none;
-}
-
-div#fotos-mundo section a h4 {
-    color: rgb(3, 3, 179);
-    text-transform: uppercase;
-    font-size: 0.8em;
-}
-
-div#fotos-mundo section a p {
-    color: black;
-}
-
-div#fotos-mundo section img {
-    width: 80px;
-}
-/*Fim da formatação da lista de noticias mundo*/
 
 /*Formando a lista de notícias recentes*/
 div#noticias-recentes {
