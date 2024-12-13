@@ -7,17 +7,112 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <header>
-        <div id="topo"><!--Inicio do topo-->
-            <div id="area-logo"><!--Inicio da area logo-->
-                <h1>
-                    <a href="">Chalé hotel</a>
-                </h1>
-            </div><!--Fim da area logo-->
-            <div id="area-menu"><!--Inicio da area menu-->
-                menu
-            </div><!--Fim da area menu-->
-        </div><!--Fim do topo-->
-    </header>
+    <div id="container">
+        <header>
+            <div id="topo"><!--Inicio do topo-->
+
+                <div id="area-logo"><!--Inicio da area logo-->
+
+                    <div class="logo"> <!--Serve para colocar a logo com a foto-->
+                        <a href="#"></a>
+                    </div>
+
+                </div><!--Fim da area logo-->
+
+                <div id="area-menu"><!--Inicio da area menu-->
+                    <div id="conteudo-menu"><!--Aqui é o que vai dentro da area do menu-->
+                        <section id="menu-locais"><!--Serve para colocar os escritos lá de cima do menu-->
+                            <a href="#">Rio de Janeiro</a> - 
+                            <a href="#">São Paulo</a> -
+                            <a href="#">Belo Horizonte</a>
+
+                            <a id="reserva" href="#">Reservar</a>
+                        </section>
+
+                        <section id="menu"><!--Barra de navegação vertical-->
+                            <ul id="navegacao">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">História</a>
+                                </li>
+                                <li>
+                                    <a href="#">Imprensa</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gastronomia</a>
+                                </li>
+                                <li>
+                                    <a href="#">Conato</a>
+                                </li>
+                            </ul>
+
+                            <img src="imagens/depoimento.png" alt="">
+                        </section>
+                    </div>
+                </div><!--Fim da area menu-->
+
+            </div><!--Fim do topo-->
+        </header>
+
+        <main id="container-conteudo"><!--Esse é o que engloba tudo e vai o display: flex;-->
+
+            <section id="area-principal"><!--Esse aqui é para colocar os conteudo da area principal e para o display:flex; pegar-->
+
+                <div class="conteudo"><!--Serve para dar um espaço nas laterias e no meio das areas principal e lateral, e serve para colocar os conteudos aqui dentro-->
+                <h2>
+                    Lorem ipsum dolor, sit amet consectetur.
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iure similique nostrum omnis, impedit perspiciatis itaque quas natus vitae rem aperiam harum adipisci quod facere delectus maxime dolorum quaerat quo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi autem tenetur, praesentium debitis ex dicta cupiditate qui laboriosam repellendus ea vero velit dolores doloribus cumque molestias, aut quaerat quia! Architecto.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi inventore distinctio fugit aliquid ut voluptate expedita odio? Laborum maiores magnam nihil? Ipsum optio magni totam eum eius, fugiat nihil consequatur!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum mollitia sequi minima eius necessitatibus, maiores odio dolorem. Ducimus suscipit, fuga, ut aspernatur ipsum assumenda in harum ullam iure nulla labore!
+                </p>
+                </div>
+
+            </section>
+            <section id="area-lateral"><!--Esse aqui é para colocar os conteudo da area lateral  e para o display:flex; pegar-->
+
+                <div class="conteudo"><!--Serve para dar um espaço nas laterias e no meio das areas principal e lateral, e serve para colocar os conteudos aqui dentro-->
+                    <section class="lado-lado">
+                        <img src="imagens/apartamento.jpg" alt="foto de apartamento">
+                        <a href="#">
+                            <h2>Restaurante</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur quam, corporis expedita harum cum?</p>
+                        </a>
+                    </section>
+
+                    <section class="lado-lado">
+                        <img src="imagens/restaurante.jpg" alt="foto de restaurante">
+                        <a href="#">
+                            <h2>Restaurante</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur quam, corporis expedita harum cum?</p>
+                        </a>
+                    </section>
+                    
+                    <section class="lado-lado">
+                        <img src="imagens/piscina.jpg" alt="foto de piscina">
+                        <a href="#">
+                            <h2>Piscina</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur quam, corporis expedita harum cum?</p>
+                        </a>
+                    </section>
+                </div>
+
+            </section>
+        </main><!--Esse é o fim do que engloba tudo e vai o display: flex;-->
+    </div>
+
+    <footer id="rodape">
+        <p>&copy; Chalé Hotel 2024 - Davi do couto junto a <a target="_blank" href="https://www.udemy.com">Udemy</a></p>
+    </footer>
 </body>
 </html>

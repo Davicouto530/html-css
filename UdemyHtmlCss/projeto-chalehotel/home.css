@@ -12,6 +12,13 @@ body {
     margin: 15px;
 }
 
+#container {
+    background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 700px;
+    max-width: 1180px;
+}
+
 #topo {
     position: relative;
     background: #dbcd87;
@@ -23,9 +30,20 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     background: url(imagens/topo-imagem-principal.png) no-repeat;
     width: 100%;
     height: 250px;
+}
+
+.logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
 }
 
 #area-menu {
@@ -35,5 +53,141 @@ body {
     background: url(imagens/topo-imagem-lateral.png) no-repeat;
     width: 450px;
     height: 250px;
+    z-index: 2;
 }
 
+#conteudo-menu {
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+#menu-locais {
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding: 5px 0px;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-locais a {
+    color: #8b8448;
+    font-weight: 600;
+}
+
+a#reserva {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+}
+
+/*Barra de navegação vertical*/
+#menu {
+    margin-top: 15px;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navegacao li {
+    margin-top: 8px;
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+}
+
+ul#navegacao a:hover {
+    background: #fdf6be;
+    border-radius: 3px;
+}
+
+/*Area do conteúdo principal*/
+#container-conteudo {
+    display: flex;
+}
+
+#area-principal {
+    width: 50%;
+    background: url(imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+}
+
+#area-lateral {
+    background: url(imagens/bg-area-lateral.png) top left repeat-x;
+    width: 50%;
+}
+
+#area-lateral .lado-lado {
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#area-lateral .lado-lado a {
+    color: #000;
+}
+
+#area-lateral .lado-lado:hover {
+    color: #000;
+    background: #f7f3d9fa;
+    cursor: pointer;
+}
+
+#area-lateral .lado-lado a h2 {
+    background: url(imagens/ornamento.png) no-repeat center right;
+}
+
+#area-lateral img {
+    width: 200px;
+    height: 105px;
+    margin-right: 10px;
+}
+
+.conteudo { /*Serve para dar um espaço nas laterias e no meio das areas principal e lateral*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Formatando o rodapé*/
+footer#rodape {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #7d7640;
+    height: 100px;
+    background: #fff url(imagens/bg-rodape.png);
+}
+
+#rodape p {
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+#rodape p a {
+    color: #7d7640;
+}
+
+/*Formatação de textos gerais*/
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
