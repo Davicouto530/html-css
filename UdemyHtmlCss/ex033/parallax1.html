@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito parallax</title>
+    <style>
+
+        body, html {
+            font: 16px "Lato", sans-serif;
+            margin: 0;
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: #fff;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /*-----------Efeito parallax-----------*/
+        .caixa1, .caixa2, .caixa3, .caixa4 {
+            height: 100%;
+            opacity: 0.7; /*O valor zero é o que não da pra ver nada e deixa a imagem toda transparente*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .caixa1 {
+            background-image: url(imagens/imagem1.jpg);
+        }
+
+        .caixa2 {
+            background-image: url(imagens/imagem2.jpg);
+        }
+
+        .caixa3 {
+            background-image: url(imagens/imagem3.jpg);
+        }
+
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+        }
+
+        .conteudo-titulo {
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            passeio de balões
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio temporibus asperiores possimus cum, illo animi facere, est quidem nihil quos architecto tempora veniam doloremque et rerum voluptatibus, velit nisi voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus suscipit recusandae, consequatur aspernatur omnis iste saepe blanditiis provident ea cupiditate voluptates cum necessitatibus. Perferendis accusamus ab deserunt et nobis.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio temporibus asperiores possimus cum, illo animi facere, est quidem nihil quos architecto tempora veniam doloremque et rerum voluptatibus, velit nisi voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat porro corrupti est quaerat soluta! Repellendus voluptas doloremque, voluptatem autem nihil fuga ratione? Deserunt sit facilis optio illo error quos a.
+        </p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            pegando a estrada
+        </div>
+    </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            pôr do sol
+        </div>
+    </div>
+
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            montanhas
+        </div>
+    </div>
+</body>
+</html>
