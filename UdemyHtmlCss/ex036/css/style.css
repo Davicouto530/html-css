@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: url("../imagens/camera.png");
+}
+
+#caixa h1 {
+    background: rgba(255, 255, 255, 0.7);/*Serve para colocar transparência.*/
+}
+
+#caixa2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom, darkblue, lightblue, black);
+    /*Serve para fazer um degradê, o "to" e na frente pode ser (top, right, bottom e left) para dar direção do degradê, o "to" é falando "começa na esquerda(left) e vai até a direta e etc. Pode colocar também em graus "80deg" e colocar o valor.*/
+}
+
+#caixa3 {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(darkblue, lightblue, red, orange);
+}
