@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: -9px -9px 4px 5px rgba(0, 0, 0, 0.418);
+    /*O quarto valor ele aumenta o tamanho da sombra*/
+}
+
+#caixa h1 {
+    color: white;
+    text-shadow: 20px 20px 2px black;
+    /*O primeiro valor movimenta a sombra na horizontal, valor positivo movimenta para direita, e o valor negativo movimenta para a esquerda.
+    O segundo valor movimenta a sombra na vertical, valor positivo movimenta para baixo, e o valor negativo movimenta para a cima.
+    O terceiro valor deixa a sombra borrada.*/
+}
