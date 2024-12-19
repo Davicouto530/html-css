@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox HTML5</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #conteudo {
+            background: #dcdcdc;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            /*Tipos de "flex-direction": row, row-reverse, column e column-reverse*/
+
+            flex-wrap: nowrap;
+            /*Tipos de "flex-wrap": nowrap, wrap, wrap-reverse.
+            O "flex-wrap: wrap;" serve para quando você for diminuindo a tela, os itens que tem um tamanho fixo quebrem de linha para continuarem com o mesmo tamanho, só que na linha abaixo para caber todos.*/
+
+            justify-content: center;
+            /*Propriedades do justify-content
+            flex-start = deixa o conteúdo a esquerda
+            flex-end = deixa o conteúdo a direita
+            center = deixa os conteúdos no centro
+            space-between = da espaços iguais entre os itens
+            space-around = da espaços iguais entre os itens e nas bordas
+            */
+
+            align-items: center;
+            /*Propriedades do align-items
+            flex-start = deixa o conteúdo emcima
+            flex-end = deixa o conteúdo embaixo
+            center = deixa os conteúdos no centro
+            stretch = é a opção padrão
+            baseline = alinha o conteúdo de acordo com a linha escrita.
+            */
+        }
+
+        .item {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        .ordem1 {
+            order: 1;
+        }
+
+        .ordem2 {
+            order: 2;
+        }
+
+        .ordem3 {
+            order: 3;
+        }
+
+        .ordem4 {
+            order: 4;
+        }
+    </style>
+</head>
+<body>
+    <h1>FlexBox HTML5</h1>
+
+    <div id="conteudo">
+        <div class="item ordem1">01</div>
+        <div class="item ordem2">02</div>
+        <div class="item ordem3">03</div>
+        <div class="item ordem4">04</div>
+    </div>
+
+</body>
+</html>

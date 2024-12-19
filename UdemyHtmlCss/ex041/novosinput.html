@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Novas tags input HTML5</h1>
+
+    <form action="#" autocomplete="off">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required="required" autofocus><br><br>
+        <!--"autofocus" serve para deixar marcado o quadrado de escrever-->
+
+        <!--Email-->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required="required"><br><br>
+        <!--"required" serve para obrigar o usuário a preencher.-->
+
+        <!--Número-->
+        <label for="numero">Número:</label>
+        <input type="number" name="numero" id="numero" min="1" max="10" step="2"><br><br>
+        <!--"min" e o "max" serve para colocar o numero mínimo que pode ser colocado e número máximo que pode ser colocado, e o "step" serve para colocar de quantos em quantos números vai contanto até o máximo-->
+
+        <!--URL-->
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" placeholder="ex: http://www..."><br><br>
+
+        <!--Pesquisa-->
+        <label for="pesquisa">Pesquisa:</label>
+        <input type="search" name="pesquisa" id="pesquisa" ><br><br>
+
+        <!--Range-->
+        <label for="range">Range:</label>
+        <input type="range" name="range" id="range" min="1" max="3" value="2"><br><br>
+        <!--"min" e o "max" no range serve para colocar quantas vezes pontos vai arrastar, e o "value" serve para colocar aonde que a bolinha vai começar.-->
+
+        <!--Data-->
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data" ><br><br>
+
+        <!--Cor-->
+        <label for="cor">Cor:</label>
+        <input type="color" name="cor" id="cor" ><br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

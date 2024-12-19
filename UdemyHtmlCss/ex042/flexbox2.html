@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox ordem HTML5</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #conteudo {
+            background: #dcdcdc;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        .ordem1 {
+            order: 4;
+        }
+
+        .ordem2 {
+            order: 3;
+        }
+
+        .ordem3 {
+            order: 2;
+        }
+
+        .ordem4 {
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>FlexBox HTML5</h1>
+
+    <div id="conteudo">
+        <div class="item ordem1">01</div>
+        <div class="item ordem2">02</div>
+        <div class="item ordem3">03</div>
+        <div class="item ordem4">04</div>
+    </div>
+
+</body>
+</html>
