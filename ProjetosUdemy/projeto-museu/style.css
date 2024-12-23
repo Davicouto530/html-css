@@ -52,17 +52,70 @@ header h1 strong {
     transition: 0.3s;
 }
 
-/*Formatando o conteúdo principal*/
-
+/*Formatando o container*/
 main#container {
     width: 1050px;
     margin: 0 auto;
     display: flex;
 }
 
+/*Formatando o conteúdo principal*/
 #conteudo-principal {
     width: 700px;
     margin-right: 30px;
+}
+
+#conteudo-principal section h1 {
+    color: rgb(0, 112, 0);
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 15px 0px;
+}
+
+/*Formatando a parte debaixo da img do museu - Primeira parte*/
+#primeira-parte {
+    display: flex;
+}
+
+#primeira-parte section#video {
+    margin-right: 30px;
+}
+
+/*Formatando a parte debaixo da img do museu - Segunda parte*/
+#segunda-parte-textos {
+    display: flex;
+}
+
+#lista-exposicoes ul {
+    margin-left: 40px;
+    max-width: 270px;
+}
+
+#lista-exposicoes ul li a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(133, 86, 0);
+}
+
+#lista-exposicoes ul li a:hover {
+    color: rgb(0, 112, 0);
+}
+
+#historia {
+    margin-left: 50px;
+}
+
+#historia p {
+    font-size: 0.8em;
+    max-width: 320px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#historia a {
+    text-decoration: none;
+    color: rgb(133, 86, 0);
+    font-size: 0.9em;
 }
 
 /*Formatando a parte lateral*/
@@ -106,4 +159,50 @@ main#container {
     color: #fff;
     background: rgba(46, 0, 0, 0.336);
     cursor: pointer;
+}
+
+#galeria-fotos .fundo {
+    background-image: url(img/fundo-foto.png);
+}
+
+hr {
+    width: 400px;
+    margin: 30px auto;
+}
+
+/*Formatando o rodapé*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+}
+
+#nav-footer ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+#nav-footer ul li a {
+    text-decoration: none;
+    color: rgb(133, 86, 0);
+}
+
+#nav-footer ul li a:hover {
+    color: rgb(0, 112, 0);
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(133, 86, 0);
+}
+
+footer p a:hover {
+    color: rgb(0, 112, 0);
 }
