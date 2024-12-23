@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>museu <strong>nacional</strong></h1>
+
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">exposição</a></li>
+                <li><a href="">pesquisa</a></li>
+                <li><a href="#">acervo</a></li>
+                <li><a href="#">vídeos</a></li>
+                <li><a href="#">fotos</a></li>
+                <li><a href="#">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="container">
+        <div id="conteudo-principal"><!--Inicio da parte principal-->
+
+            <section id="img-museu"><!--Parte da imagem do museu-->
+                <img src="img/museu.png" alt="foto do museu">
+            </section>
+
+
+        </div>
+
+        <aside id="conteudo-lateral">
+            <section id="primeira-foto">
+                <img src="img/depoimento.png" alt="foto de um depoimento">
+            </section>
+
+            <section id="visita">
+                <h2>Faça uma visita</h2>
+
+                <label for="data">Data</label>
+                <input type="date" name="data" id="data">
+
+                <br>
+
+                <label for="pessoa">Quantidade de pessoas</label>
+                <input type="number" name="pessoas" id="pessoas">
+
+                <input class="botao" type="submit" value="Verificar disponibilidade">
+            </section>
+        </aside>
+    </main>
+</body>
+</html>
