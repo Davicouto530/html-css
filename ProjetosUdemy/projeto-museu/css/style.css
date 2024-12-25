@@ -21,7 +21,7 @@ header h1 {
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 header h1 strong {
@@ -36,7 +36,7 @@ header h1 strong {
 }
 
 #nav-menu ul li {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #nav-menu ul li a {
@@ -58,12 +58,15 @@ main#container {
     width: 1050px;
     margin: 0 auto;
     display: flex;
+
 }
 
 /*Formatando o conteúdo principal*/
 #conteudo-principal {
     width: 700px;
     margin-right: 30px;
+    position: relative;
+    bottom: 50px;
 }
 
 #conteudo-principal section h1 {
@@ -76,6 +79,7 @@ main#container {
 /*Formatando a parte debaixo da img do museu - Primeira parte*/
 #primeira-parte {
     display: flex;
+    margin-left: 10px;
 }
 
 #primeira-parte section#video {
@@ -85,6 +89,7 @@ main#container {
 /*Formatando a parte debaixo da img do museu - Segunda parte*/
 #segunda-parte-textos {
     display: flex;
+    margin-left: 10px;
 }
 
 #lista-exposicoes ul {
@@ -123,6 +128,8 @@ main#container {
 #conteudo-lateral {
     width: 320px;
     background: #e6e5e5;
+    position: relative;
+    bottom: 50px;
 }
 
 #primeira-foto img {
@@ -162,13 +169,35 @@ main#container {
     cursor: pointer;
 }
 
-#galeria-fotos .fundo {
-    background-image: url(img/fundo-foto.png);
+/*Formatando a galeria de fotos*/
+aside {
+    padding-bottom: 30px;
+}
+
+section#galeria-fotos h1 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: rgb(133, 86, 0);
+    margin: 20px 0px 0px 20px;
+}
+
+section#galeria-fotos a {
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0px 0px 20px;
+}
+
+section#galeria-fotos img {
+    margin-left: 2px;
+    margin-top: 3px;
 }
 
 hr {
-    width: 400px;
-    margin: 30px auto;
+    width: 500px;
+    margin: 10px auto;
+    box-shadow: 2px 3px 6px #ccc;
 }
 
 /*Formatando o rodapé*/
@@ -177,7 +206,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 #nav-footer ul {
